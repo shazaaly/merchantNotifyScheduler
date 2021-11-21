@@ -1,0 +1,8 @@
+ @foreach ($admin->notifications as $notification)
+
+        <span>  {{$notification->data['username']}}</span><hr>
+
+        <span>{{$notification->data['email']}}</span>
+
+
+    @endforeach
